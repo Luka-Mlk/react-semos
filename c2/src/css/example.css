@@ -1,0 +1,9 @@
+.hello {
+  color: red;
+}
+#FavHobby {
+  color: hsl(200, 50%, 50%, 0.5);
+}
+.hobby-list {
+  color: hsl(120, 50%, 50%, 0.5);
+}
