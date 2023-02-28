@@ -1,0 +1,28 @@
+.input--form {
+  border: 1px solid hsl(150, 50%, 50%, 0.75);
+  border-radius: 10px;
+  padding: 1rem;
+}
+.input--form--input {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.input--form--submit {
+  margin: 1rem;
+}
+.car--list {
+  border: 1px solid hsl(150, 50%, 50%, 0.75);
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  list-style: none;
+}
+.car--list--item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.car--list--item button {
+  background-color: hsl(150, 50%, 50%, 0.75);
+}
