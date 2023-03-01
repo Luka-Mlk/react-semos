@@ -3,16 +3,17 @@ export const CarList = ({ listOfCars, deleteById }) => {
   //   const deleteById = (something) => {
   //     const { id } = something.target;
 
-  //     // console.log(something.target.id);
-  //     // listOfCars.forEach((car) => {
-  //     //   if (id === car.id) {
-  //     //     console.log(listOfCars.indexOf(car));
-  //     //     let sellCar = listOfCars.indexOf(car);
-  //     //     listOfCars.splice(sellCar, 1);
-  //     //   }
-  //     //   //   console.log(car.id);
-  //     //   console.log(listOfCars);
-  //     // });
+  // console.log(something.target.id);
+  // listOfCars.forEach((car) => {
+  //   if (id === car.id) {
+  //     console.log(listOfCars.indexOf(car));
+  //     let sellCar = listOfCars.indexOf(car);
+  //     listOfCars.splice(sellCar, 1);
+  //   }
+  //   //   console.log(car.id);
+  //   console.log(listOfCars);
+  // });
+  //  treba da returna vrednost koja posle ke se iskoristi da se povika dr funkcija za prepisuvanje
   //   };
   return (
     <ol className="car--list">
