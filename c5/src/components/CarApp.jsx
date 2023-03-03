@@ -20,7 +20,11 @@ export const CarApp = () => {
     // console.log(newCar);
   };
   const deleteById = (something) => {
+    let indexOfCarToBeSwapped;
+    let identification;
+    console.log(something);
     const { id } = something.target;
+    cars.forEach((car) => {});
     // cars.filter((car) => car.id !== id);
     // console.log(something.target.id);
     // listOfCars.forEach((car) => {
